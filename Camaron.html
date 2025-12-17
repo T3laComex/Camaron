@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>La Cueva del Camarón</title>
+
+  
+  <link rel="stylesheet" href="Camaron.css">
+</head>
+<body>
+
+  <header>
+    <h1>LA CUEVA DEL CAMARÓN</h1>
+    
+    <div class="logo">
+        <img src="C:\Users\frank\OneDrive\Escritorio\camaron.jpeg">
+    </div>
+
+  </header>
+
+  <h2 class="subtitulo">LOS MÁS VENDIDOS!!!</h2>
+
+  <section class="grid-productos">
+    <button class="producto-btn"
+            data-nombre="Figura Anime Sexy"
+            data-precio="$450 MXN"
+            data-disponible="En stock"
+            data-marca="PEPITO">
+      <img src="C:\Users\frank\OneDrive\Escritorio\CHICHONA.jpeg" alt="Producto 1">
+    </button>
+
+    <button class="producto-btn"
+            data-nombre="Dildo Rosa Silicona"
+            data-precio="$520 MXN"
+            data-disponible="Pocas piezas"
+            data-marca="DILDOS EVERYWHERE">
+      <img src="C:\Users\frank\OneDrive\Escritorio\DILDO.jpeg" alt="Producto 2">
+    </button>
+
+    <button class="producto-btn"
+            data-nombre="Figura Conejita Azul"
+            data-precio="$399 MXN"
+            data-disponible="En stock"
+            data-marca="Dios soy yo de nuevo">
+      <img src="C:\Users\frank\OneDrive\Escritorio\Bulma.jpeg" alt="Producto 3">
+    </button>
+
+    <button class="producto-btn"
+            data-nombre="Plug Metálico Rosa"
+            data-precio="$260 MXN"
+            data-disponible="En stock"
+            data-marca="Shiny Love">
+      <img src="C:\Users\frank\OneDrive\Escritorio\plug.jpeg" alt="Producto 4">
+    </button>
+  </section>
+
+  
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <button class="cerrar" id="cerrar-modal">&times;</button>
+      <h2 id="modal-nombre"></h2>
+      <p><strong>Precio:</strong> <span id="modal-precio"></span></p>
+      <p><strong>Disponibilidad:</strong> <span id="modal-disponible"></span></p>
+      <p><strong>Marca:</strong> <span id="modal-marca"></span></p>
+    </div>
+  </div>
+
+  
+  <script src="Camaron.js"></script>
+</body>
+</html>
